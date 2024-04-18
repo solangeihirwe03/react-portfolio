@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import About from "./About";
+import Portfolio from "./Portfolio";
 const Home = () => {
   return (
     <section>
@@ -26,6 +27,9 @@ const Home = () => {
       {/**========this isAbout me page ==================*/}
       <div>
         <About />
+      </div>
+      <div>
+        <Portfolio />
       </div>
     </section>
   );

@@ -1,8 +1,8 @@
 import Skills from "./Skills";
 const About = () => {
   return (
-    <div className="text-[#c4c4c4] bg-black w-full h-[100vh] p-14 text-lg flex flex-col gap-14">
-      <div>
+    <div className="text-[#c4c4c4] bg-black w-full h-[100vh] text-lg flex flex-col gap-14">
+      <div className="h-[25vh]  px-14 py-7">
         <h2 className="font-semibold pb-6 text-4xl">About</h2>
         <p>
           As a passionate front-end developer with a strong focus on crafting
@@ -14,7 +14,7 @@ const About = () => {
           where I am.
         </p>
       </div>
-      <div>
+      <div className="w-full">
         <Skills />
       </div>
     </div>
