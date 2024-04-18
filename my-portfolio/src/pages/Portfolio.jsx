@@ -1,7 +1,7 @@
 
 const Portfolio = () => {
   return (
-    <div className="bg-black text-[#c4c4c4] py-5 flex flex-col gap-7 items-center">
+    <div className=" py-5 flex flex-col gap-7 items-center">
       <h2 className="font-semibold text-4xl text-center pb-6">Portfolio</h2>
       <div className="w-full flex flex-wrap  items-center justify-center gap-4 md:gap-7 md:px-[10%]">
         <div className="w-[30%]">
