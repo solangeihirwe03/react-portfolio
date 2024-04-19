@@ -4,7 +4,7 @@ import Portfolio from "./Portfolio";
 import Contact from "./Contact";
 const Home = () => {
   return (
-    <section className="bg-black text-[#c4c4c4]">
+    <section className="bg-black text-[#c4c4c4] absolute">
       {/**========this is home page ==================*/}
 
       <div className="bg-[url('http://localhost:5173/IMG_20231028_124803_960~2.jpg')] bg-no-repeat bg-cover w-full h-[90vh] md:h-[100vh] bg-opacity-80 flex flex-col items-center justify-center gap-7">

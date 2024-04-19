@@ -1,9 +1,7 @@
 const Skills = () => {
   return (
     <div className=" w-full h-[60vh]">
-      <h2 className="font-semibold text-4xl text-center pb-6">
-        My Skills
-      </h2>
+      <h2 className="font-semibold text-4xl text-center pb-6">My Skills</h2>
       <div className="w-full  px-[5%] md:px-[10%] flex flex-wrap items-center justify-center gap-4">
         <div className="w-[23%] flex flex-col items-center bg-[#565656] rounded-[22px] px-4 hover:bg-[#b5882e] transition-transform hover:translate-x-[5%] duration-700 text-white">
           <img src="./html.svg" alt="html" className="w-full p-4 md:w-[70%]" />
@@ -56,6 +54,14 @@ const Skills = () => {
             className="w-full p-4 md:w-[70%]"
           />
           <span className="font-semibold">Typescript</span>
+        </div>
+        <div className="w-[23%] flex flex-col items-center bg-[#565656] rounded-[22px] px-4 hover:bg-[#b5882e] transition-transform hover:translate-x-[5%] duration-700 text-white">
+          <img
+            src="./Tailwind CSS.svg"
+            alt="typescript"
+            className="w-full p-4 md:w-[70%]"
+          />
+          <span className="font-semibold">Tailwind</span>
         </div>
       </div>
     </div>
