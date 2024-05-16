@@ -1,0 +1,26 @@
+name: Slack Notification on Push
+on: [push]  
+jobs:
+  notify:  solze
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies (if needed for your project)
+        run: npm install
+         name: Send Slack notification
+        uses: slackapi/slack-github-action@v1.26.0  # Use the Slack action
+        with:
+          token: ${{ secrets.SLACK_WEBHOOK_TOKEN }}  # Access token from GitHub Secrets
+          channel: '#your-slack-channel'  # Channel to post the message (replace with your channel)
+          payload: |  # Multi-line message content
+            {
+              "text": "GitHub Action build result
+                {
+                  "type": "section",
+                  "text": {
+                    "text": "GitHub Action build result"
+                  }
+                }
+              ]
+            }
+            SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
