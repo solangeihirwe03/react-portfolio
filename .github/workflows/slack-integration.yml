@@ -2,7 +2,7 @@ name: Slack Notification on Push
 on: [push]  
 jobs:
   notify:  solze
-    runs-on: ubuntu-latest
+    runs-on: Windows Runners
     steps:
       - uses: actions/checkout@v3
       - name: Install dependencies (if needed for your project)
