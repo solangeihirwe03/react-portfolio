@@ -23,4 +23,3 @@ jobs:
                 }
               ]
             }
-            SLACK_WEBHOOK_URL: https://hooks.slack.com/services/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
