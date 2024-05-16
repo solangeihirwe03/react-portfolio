@@ -12,7 +12,7 @@ jobs:
         with:
           token: ${{ secrets.SLACK_WEBHOOK_TOKEN }}  # Access token from GitHub Secrets
           channel: '#your-slack-channel'  # Channel to post the message (replace with your channel)
-          payload: |  # Multi-line message content
+          payload: https://hooks.slack.com/services/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
             {
               "text": "GitHub Action build result
                 {
